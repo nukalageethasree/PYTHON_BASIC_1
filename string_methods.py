@@ -1,0 +1,8 @@
+str=input("enter the string :")
+print("upper case of the given string:",str.upper())
+print("lower case of the given string:",str.lower())
+print("split  the given string:",str.split(","))
+print("join the given string:","-".join(str.split(",")))
+print("replace the string the given string:",str.replace("geetha" ,"karthika"))
+print("count no of  e in the given string:",str.count("e"))
+print("find geetha in  the given string:",str.find("geetha"))
